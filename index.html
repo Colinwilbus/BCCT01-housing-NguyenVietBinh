@@ -86,9 +86,60 @@
     </section>
     <!-- about -->
     <section class="about" id="myAbout">
-
+        <div class="about__content">
+            <h2>About</h2>
+            <div class="about__list">
+                <div class="about__item">
+                    <i class="fa fa-home"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="about__item">
+                    <i class="fa fa-key"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="about__item">
+                    <i class="fa fa-money-bill-alt"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+            <div class="about__info">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed odio consequat, tristique elit
+                    sed, molestie nulla. Mauris et quam leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae
+                    velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt ut velit id
+                    euismod.vulputate turpis porta ex sodales, dignissim hendrerit eros sagittis. Curabitur lacinia dui
+                    ut luctus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis</p>
+            </div>
+        </div>
     </section>
-    <section class="start"></section>
+    <!-- start -->
+    <section class="start">
+        <div class="start__content">
+            <h2>Start</h2>
+            <div class="start__number">
+                <div class="start__item">
+                    <h3 class="counter">3500</h3>
+                    <p>clients</p>
+                </div>
+                <div class="start__item">
+                    <h3 class="counter">650</h3>
+                    <p>Plans</p>
+                </div>
+                <div class="start__item">
+                    <h3 class="counter">1021</h3>
+                    <p>projects</p>
+                </div>
+                <div class="start__item">
+                    <h3 class="counter">1010</h3>
+                    <p>Likes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
     <section class="blog" id="myBlog"></section>
     <section class="getMore"></section>
     <section class="portfolio" id="myPortfolio"></section>
@@ -116,6 +167,15 @@
             nextArrow: '<a class=" right"><p>Next</p></a>',
             autoplay: true,
         });
+    </script>
+    <!-- way point -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous"></script>
+    <!-- count up -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+        $('.counter').countUp();
     </script>
 </body>
 
