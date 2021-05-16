@@ -343,6 +343,14 @@ header .header__content {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.getMore .getMore__movie .getMore__video {
+  display: none;
+}
+/* .getMore .getMore__movie .fancybox-content {
+  padding: 50px;
+  
+} */
+
 .getMore__button a {
   font-size: 2rem;
   color: white;
