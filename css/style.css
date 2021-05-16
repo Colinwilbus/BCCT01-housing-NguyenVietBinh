@@ -401,3 +401,55 @@ header .header__content {
   line-height: 30px;
   font-size: 0.9rem;
 }
+/* portfolio */
+.portfolio {
+  padding: 20px 100px;
+}
+.portfolio .portfolio__content h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: black;
+  padding: 40px 0;
+}
+.portfolio .portfolio__content .portfolio__detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.portfolio__detail .portfolio__item {
+  position: relative;
+  padding: 0 10px;
+}
+.portfolio__detail .portfolio__item img {
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio__detail .portfolio__item .portfolio__overlay {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.749);
+  padding: 30px 60px;
+  color: #00cdce;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.portfolio__item .portfolio__overlay h3 {
+  padding: 30px 30px;
+  border-top: 1px solid #00cecec2;
+  border-bottom: 1px solid #00cecec2;
+  font-size: 1.5rem;
+}
+.portfolio__item .portfolio__overlay p {
+  padding: 10px 0;
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.portfolio__detail .portfolio__item:hover .portfolio__overlay {
+  opacity: 1;
+}
