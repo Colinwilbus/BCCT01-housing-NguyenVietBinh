@@ -26,6 +26,12 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- fancy box -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+
+    <!--gallery lsb-->
+    <link href="css/lsb.css" rel="stylesheet" type="text/css">
+
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -289,7 +295,7 @@
         <div class="getMore__content">
             <div class="getMore__movie">
                 <div class="getMore__button">
-                    <a data-fancybox="gallery" href="#myVideo">
+                    <a data-fancybox="galleryvideo" href="#myVideo">
                         <!-- nghiên cứu phần video -->
                         <i class="fa fa-play-circle"></i>
                     </a>
@@ -345,58 +351,189 @@
         <div class="portfolio__content">
             <h2>Portfolio</h2>
             <div class="portfolio__detail">
-                <div class="portfolio__item">
-                    <img src="./images/img1.jpg" alt="">
-                    <div class="portfolio__overlay">
-                        <h3>GALLERY</h3>
-                        <p>Lorem Ipsum is simply dummy</p>
+                <a data-fancybox="gallery" href="./images/img1.jpg">
+                    <div class="portfolio__item">
+                        <img src="./images/img1.jpg" alt="">
+                        <div class="portfolio__overlay">
+                            <h3>GALLERY</h3>
+                            <p>Lorem Ipsum is simply dummy</p>
+                        </div>
                     </div>
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/img2.jpg" alt="">
-                    <div class="portfolio__overlay">
-                        <h3>GALLERY</h3>
-                        <p>Lorem Ipsum is simply dummy</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/img6.jpg" alt="">
-                    <div class="portfolio__overlay">
-                        <h3>GALLERY</h3>
-                        <p>Lorem Ipsum is simply dummy</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/img4.jpg" alt="">
-                    <div class="portfolio__overlay">
-                        <h3>GALLERY</h3>
-                        <p>Lorem Ipsum is simply dummy</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/img5.jpg" alt="">
-                    <div class="portfolio__overlay">
-                        <h3>GALLERY</h3>
-                        <p>Lorem Ipsum is simply dummy</p>
-                    </div>
-                </div>
-                <div class="portfolio__item">
-                    <img src="./images/img3.jpg" alt="">
-                    <div class="portfolio__overlay">
-                        <h3>GALLERY</h3>
-                        <p>Lorem Ipsum is simply dummy</p>
-                    </div>
-                </div>
+                </a>
 
+                <a data-fancybox="gallery" href="./images/img2.jpg">
+                    <div class="portfolio__item">
+                        <img src="./images/img2.jpg" alt="">
+                        <div class="portfolio__overlay">
+                            <h3>GALLERY</h3>
+                            <p>Lorem Ipsum is simply dummy</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a data-fancybox="gallery" href="./images/img6.jpg">
+                    <div class="portfolio__item">
+                        <img src="./images/img6.jpg" alt="">
+                        <div class="portfolio__overlay">
+                            <h3>GALLERY</h3>
+                            <p>Lorem Ipsum is simply dummy</p>
+                        </div>
+                    </div>
+                </a>
+                <a data-fancybox="gallery" href="./images/img4.jpg">
+                    <div class="portfolio__item">
+                        <img src="./images/img4.jpg" alt="">
+                        <div class="portfolio__overlay">
+                            <h3>GALLERY</h3>
+                            <p>Lorem Ipsum is simply dummy</p>
+                        </div>
+                    </div>
+                </a>
+                <a data-fancybox="gallery" href="./images/img5.jpg">
+                    <div class="portfolio__item">
+                        <img src="./images/img5.jpg" alt="">
+                        <div class="portfolio__overlay">
+                            <h3>GALLERY</h3>
+                            <p>Lorem Ipsum is simply dummy</p>
+                        </div>
+                    </div>
+                </a>
+                <a data-fancybox="gallery" href="./images/img3.jpg">
+                    <div class="portfolio__item">
+                        <img src="./images/img3.jpg" alt="">
+                        <div class="portfolio__overlay">
+                            <h3>GALLERY</h3>
+                            <p>Lorem Ipsum is simply dummy</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
-    <section class="subscribe"></section>
-    <section class="ourAgents" id="myAgents"></section>
-    <section class="map"></section>
-    <section class="contactUs" id="myContact"></section>
-    <footer></footer>
-
+    <!-- subscribe -->
+    <section class="subscribe">
+        <div class="subscribe__content">
+            <h2>Subscribe</h2>
+            <p>consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi</p>
+            <div class="subscribe__form">
+                <form>
+                    <input type="email" name="" id="" placeholder="Email">
+                    <button type="submit">Click</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ourAgents -->
+    <section class="ourAgents" id="myAgents">
+        <div class="ourAgents__content">
+            <h2>Our Agents</h2>
+            <div class="ourAgents__detail">
+                <div class="ourAgents__item">
+                    <div class="ourAgents__img">
+                        <img src="./images/t1.jpg" alt="">
+                    </div>
+                    <div class="ourAgents__text">
+                        <h4>KAT WALLY</h4>
+                        <p>Lorem Ipsum</p>
+                        <div class="ourAgents__icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fa fa-rss"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="ourAgents__item">
+                    <div class="ourAgents__img">
+                        <img src="./images/t4.jpg" alt="">
+                    </div>
+                    <div class="ourAgents__text">
+                        <h4>JOHN MAX</h4>
+                        <p>Lorem Ipsum</p>
+                        <div class="ourAgents__icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fa fa-rss"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="ourAgents__item">
+                    <div class="ourAgents__img">
+                        <img src="./images/t2.jpg" alt="">
+                    </div>
+                    <div class="ourAgents__text">
+                        <h4>ROY KENT</h4>
+                        <p>Lorem Ipsum</p>
+                        <div class="ourAgents__icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fa fa-rss"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="ourAgents__item">
+                    <div class="ourAgents__img">
+                        <img src="./images/t3.jpg" alt="">
+                    </div>
+                    <div class="ourAgents__text">
+                        <h4>JOY IDSON</h4>
+                        <p>Lorem Ipsum</p>
+                        <div class="ourAgents__icon">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fa fa-rss"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- map -->
+    <section class="map">
+        <div class="map__content">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.66082609255!2d94.92350041428296!3d20.148192922630848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b7d19881308ae9%3A0x229dbaae31b864b9!2sZarmani!5e0!3m2!1svi!2s!4v1621179959163!5m2!1svi!2s"
+                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!-- contactUs -->
+    <section class="contactUs" id="myContact">
+        <div class="contactUs__content">
+            <h2>Contact Us</h2>
+            <div class="contactUs__form">
+                <div class="form__left">
+                    <form action="">
+                        <input type="text" name="" id="yourName" placeholder="Name">
+                        <input type="text" name="" id="yourLastName" placeholder="Last Name">
+                        <input type="email" name="" id="yourEmail" placeholder="Email">
+                        <input type="tel" name="" id="yourPhone" placeholder="Phone">
+                    </form>
+                </div>
+                <div class="form__right">
+                    <form action="">
+                        <textarea name="" id="yourMessage" cols="30" rows="8" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer__content">
+            <div class="footer__left">
+                <p>© 2017 Housing. All Rights Reserved | Design by <span>W3layouts</span> </p>
+            </div>
+            <div class="footer__right">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fa fa-rss"></i>
+                <i class="fab fa-vk"></i>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+    </a>
     <!-- bs4 -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -433,6 +570,9 @@
     </script>
     <!-- fancy box -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- back to top -->
+    <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script>
 </body>
 
 </html>
